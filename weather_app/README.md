@@ -14,6 +14,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 
 
-## 💻 Projeto
+## 💻 Projeto 
 
-Essa Aplicação foi desenvolvida durante o <strong>NLW Spacetime</strong> que tem como objetivo criar uma cápsula de recordação de memórias, onde o usuário poderá adicionar à uma timeline textos, fotos e vídeos de acontecimentos marcantes da sua vida, organizados por mês e ano.
+### Organização: 
+main.py: Este é o ponto de entrada do programa. Ele solicita ao usuário que digite o nome da cidade, instancia a classe WeatherAPI e chama o método obter_clima() para obter as informações do clima. Em seguida, imprime as informações na tela..
+<br/>
+
+api.py: Neste arquivo, definimos a classe WeatherAPI, que é responsável por fazer a requisição à API e retornar os dados do clima. No método obter_clima(), construímos a URL da requisição com os parâmetros necessários, fazemos a requisição usando o módulo requests, e então criamos uma instância da classe Clima (definida em models.py) com os dados obtidos da API.
+<br/>
+
+models.py: Aqui definimos a classe Clima, que representa os dados do clima. No construtor, recebemos o objeto JSON retornado pela API e extraímos a temperatura.
