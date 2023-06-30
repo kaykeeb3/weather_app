@@ -8,7 +8,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## ⚙ BACK-END
+## ⚙ BACK END | LÓGICA 
 - Python
 - API: OpenWeatherMap
 - Git e Github
